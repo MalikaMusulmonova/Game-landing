@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 1266px;
+    margin: 0 auto;
+}
+
+/* hero section start */
+
+.hero{
+    background-image: url(../rasmlar/bg\ image\ 1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    padding-bottom: 4000px;
+}
+
+header{
+   width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9900;
+    margin-top: 3%;
+}
+
+.logo{
+    flex: 2;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav{
+    flex: 6;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-list-item a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-right: 52px;
+}
+
+.select{
+    flex: 4;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.options{
+    width: 40%;
+}
+
+.language{
+    background: transparent;
+    border-style: none;
+    border: none;
+}
+
+.language:hover{
+    background-color: #000;
+    color: yellow;
+}
+
+.border{
+    opacity: 0.5;
+    border: 0.873968px solid #FFFFFF;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.ball-logo{
+    margin-right: 20px;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    margin-top: 90%;
+}
+
+.title h1{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 180px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title h3{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 84px;
+    color: #FFFFFF;
+    
+}
+
+button{
+    width: 90%;
+    height: 200px;
+    border: none;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 66px;
+    color: #1A1917;
+}
+
+button span{
+    opacity: 0.5;
+    border: 0.873968px solid #1A1917;
+    transform: matrix(1, 0, 0.04, 1, 0, 0); 
+    margin-right: 5px;
+}
+
+/* hero section end */
+
+/* social battle section start  */
+
+/* .social_battle{
+    background-image: url(../rasmlar/bg\ image\ 2.svg);
+    display: flex;
+}
+
+.social-paragaraph{
+    margin-top: 20%;
+    width: 60%;
+}
+
+.social_battle h3{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.social_battle h1{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 80px;
+}
+
+.social_battle p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+  }
+
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px green solid;
+  }
+
+  .image3 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px green solid;
+  } */
+
+  /* features section start  */
+
+  .features{
+    padding-bottom: 5000px;
+    background-image: url(../rasmlar/Group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-features{
+    margin: 0 auto;
+    float: right;
+    padding-left: 60%;
+    padding-right: 10%;
+    margin-top: 10%;
+}
+
+    .features-section-information{
+        margin-top: 15%;
+    }
+
+    .information-item h3{
+        font-family: 'Bebas Neue';
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size:104px;
+        color: #FFFFFF;
+    }
+
+    .information-item h1{
+        font-family: 'Bebas Neue';
+        font-size: 250px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+
+    .information-item p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-size: 98px;
+        color: #FFFFFF;
+        font-weight: 400;
+
+    }
+
+    .information-item h2{
+        font-family: 'Bebas Neue';
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #FFB548;
+        font-size: 150px;
+    }
+
+    /* SYSTEM REQUIRIMENTS SECTION START  */
+  
+    .system-requiriments{
+        background-image: url(../rasmlar/Group\ 2.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 1000px;
+    }
+
+    .container-system{
+        margin: 0 auto;
+    }
+
+    .ul-div{
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    .system-requiriments h3{
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 144px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding-top: 10%;
+    }
+
+    .system-requiriments h1{
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 200px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 700;
+    }  
+
+    .system-requiriments-list{
+        display: flex;
+    }
+
+    .requiriments-list-item{
+        width: 25%;
+        border: 2px solid #979797;
+        padding: 1% 2%;
+    }
+    
+    .item-h4{
+        font-family: 'Bebas Neue';
+        font-size: 104px;
+        letter-spacing: 2px;
+        color: #FFB548;
+        font-weight: 700;
+    }
+
+    .item-paragraph{
+        font-family: 'Open Sans';
+        font-size: 98px;
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+
+    .list-item-bottom{
+        border: 1px solid #979797;
+        border-radius: 5%;
+        width: 50%;
+        padding: 1% 2%;
+    }
+
+    .item-h4-bottom{
+        font-family: 'Bebas Neue';
+        font-size: 104px;
+        letter-spacing: 2px;
+        color: #FFB548;
+        font-weight: 700;
+    }
+
+    .item-paragraph-bottom{
+        font-family: 'Open Sans';
+        font-size: 98px;
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+     /* SYSTEM REQUIRIMENTS SECTION END  */
+
+     /* PRESS QUOTOS SECTION START  */
+     .press-quotos{
+        background-image: url(../rasmlar/bg\ image\ 5.svg);
+        padding-bottom: 4000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+     .container-press{
+        margin: 0 auto;
+        padding: 10% 6%;
+     }
+
+     .press-data h3{
+        font-family: 'Bebas Neue';
+        font-size: 124px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        font-weight: 700;
+     }
+
+     .press-data{
+        width: 23%;
+     }
+
+     .data-title-h1{
+        font-family: 'Bebas Neue';
+        font-weight: 700;
+        font-size: 180px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+       
+     }
+
+     .press-data p{
+        font-family: 'Open Sans';
+        font-size: 68px;
+        color: #FFFFFF;
+        font-weight: 400;
+     }
+
+     button {
+        font-family: 'Open Sans';
+        font-size: 56px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #1A1917;
+        font-weight: 700;
+        border-radius: 5%;
+     }
+     
